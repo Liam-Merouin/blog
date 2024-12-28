@@ -7,7 +7,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // 自定义网站顶部的导航栏
-    logo: '/public/avatar.jpg',  // 头像路径
+    logo: '/avatar.jpg',  // 头像路径
 
     nav: [
       { text: 'Home', link: '/' },
@@ -31,6 +31,6 @@ export default defineConfig({
   },
   head: [
     // 设置 favicon 图标
-    ['link', { rel: 'icon', href: '/public/avatar.jpg' }]
+    ['link', { rel: 'icon', href: '/avatar.jpg' }]
   ]
 })
