@@ -21,5 +21,7 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 测试
+    details: 这是一个测试，查看是否能够实时更新博客
 ---
 
