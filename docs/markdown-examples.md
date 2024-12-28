@@ -6,6 +6,9 @@ This page demonstrates some of the built-in markdown extensions provided by Vite
 
 VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
 
+## 测试github图床
+![](https://raw.githubusercontent.com/Liam-Merouin/MyPic/image/image/cv0012.png)
+
 **Input**
 
 ````md
