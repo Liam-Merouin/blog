@@ -6,6 +6,9 @@ export default defineConfig({
   description: "站在风口上，猪也能飞起来！",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    // 自定义网站顶部的导航栏
+    logo: '/public/avatar.jpg',  // 头像路径
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
@@ -22,7 +25,12 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Liam-Merouin' }
-    ]
-  }
+      { icon: 'github', link: 'https://github.com/Liam-Merouin' },
+      { icon: 'gmail', link: 'mailto:liam.merouin@gmail.com' },
+    ],
+  },
+  head: [
+    // 设置 favicon 图标
+    ['link', { rel: 'icon', href: '/public/avatar.jpg' }]
+  ]
 })
