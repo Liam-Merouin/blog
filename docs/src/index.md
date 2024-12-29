@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "Merouin's blog"
   text: "站在风口上，猪也能飞起来！"
-  tagline: My great project tagline
+  tagline: My great personal tagline
   actions:
     - theme: brand
       text: Markdown Examples
-      link: /markdown-examples
+      link: /notes/markdown-examples
     - theme: alt
       text: API Examples
-      link: /api-examples
+      link: /notes/api-examples
 
 features:
   - title: Feature A
@@ -21,7 +21,5 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 测试
-    details: 这是一个测试，查看是否能够实时更新博客
 ---
 
