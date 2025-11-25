@@ -35,7 +35,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Liam-Merouin' },
       { icon: 'gmail', link: 'mailto:liam.merouin@gmail.com' },
-      { icon: 'bilibili', link: 'https://baidu.com' },
     ],
 
     footer: {

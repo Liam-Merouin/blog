@@ -1,58 +1,61 @@
 {
-  "hash": "41d150cf",
-  "configHash": "efc644ae",
-  "lockfileHash": "92ea9b46",
-  "browserHash": "0cf1fd9d",
+  "hash": "5b0e84e2",
+  "configHash": "80553464",
+  "lockfileHash": "63ca49a8",
+  "browserHash": "2a31d0db",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "047236ea",
+      "fileHash": "94da4d3d",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "45a88a5e",
+      "fileHash": "5bdfdc5f",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "fe9d2560",
+      "fileHash": "ae09d028",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "157bce57",
+      "fileHash": "716eafbf",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "b02eea84",
+      "fileHash": "0fba41b6",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "73117cb7",
+      "fileHash": "bba1a82d",
       "needsInterop": false
     },
-    "@theme/index": {
-      "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
-      "file": "@theme_index.js",
-      "fileHash": "4eb3a88f",
+    "@waline/client": {
+      "src": "../../../../node_modules/@waline/client/dist/slim.js",
+      "file": "@waline_client.js",
+      "fileHash": "47ce6aa1",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-YJ6QP2VR": {
-      "file": "chunk-YJ6QP2VR.js"
+    "chunk-4GKOY3W3": {
+      "file": "chunk-4GKOY3W3.js"
     },
-    "chunk-LW4I4DCF": {
-      "file": "chunk-LW4I4DCF.js"
+    "chunk-EKBJ2FPM": {
+      "file": "chunk-EKBJ2FPM.js"
+    },
+    "chunk-EQCVQC35": {
+      "file": "chunk-EQCVQC35.js"
     }
   }
 }
