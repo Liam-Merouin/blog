@@ -11,10 +11,18 @@ export default defineConfig({
   // 【谨慎修改】：一旦修改将引起较多变动
   srcDir: "./src",
 
+  lastUpdated: true, // 显示最后更新时间
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/avatar_arc.png',  // 头像路径
     // siteTitle: 'My Custom Title',  // 网站标题
+    
+    // 添加编辑此页链接
+    // editLink: {
+    //   pattern: 'https://github.com/Liam-Merouin/blog/edit/master/docs/src/:path',
+    //   text: 'Edit this page on GitHub'
+    // },
 
     // 自定义网站顶部的导航栏
     nav: [
@@ -55,4 +63,7 @@ export default defineConfig({
     // 设置 favicon 图标
     ['link', { rel: 'icon', href: '/avatar_circle.png' }]
   ]
+
+
+
 })
