@@ -33,10 +33,10 @@ export default defineConfig({
     // siteTitle: 'My Custom Title',  // 网站标题
 
     // 添加编辑此页链接
-    // editLink: {
-    //   pattern: 'https://github.com/Liam-Merouin/blog/edit/master/docs/src/:path',
-    //   text: 'Edit this page on GitHub'
-    // },
+    editLink: {
+      pattern: 'https://github.com/Liam-Merouin/blog/edit/master/docs/src/:path',
+      text: 'Edit this page on GitHub'
+    },
 
     // 自定义网站顶部的导航栏
     nav: [
@@ -98,7 +98,7 @@ export default defineConfig({
 
     // 加载文章：这里我设置了匹配 notes 目录下的所有 md 文件
     // 如果你有其他目录，可以改成 '**/*.md'，但要记得过滤掉 index.md
-    const posts = await createContentLoader('notes/*.md', {
+    const posts = await createContentLoader('src/notes/*.md', {
       excerpt: true,
       render: true
     }).load()
