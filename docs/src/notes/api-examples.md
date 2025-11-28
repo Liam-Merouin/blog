@@ -1,6 +1,6 @@
 ---
 title: Runtime API Examples
-date: 2025-11-28
+date: 2025-11-28T12:40:55.459Z
 outline: deep
 ---
 
@@ -28,12 +28,6 @@ const { theme, page, frontmatter } = useData()
 ### Page Frontmatter
 <pre>{{ frontmatter }}</pre>
 ```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
 
 ## Results
 

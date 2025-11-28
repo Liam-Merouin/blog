@@ -1,0 +1,25 @@
+{
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "outline",
+          "name": "outline",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
