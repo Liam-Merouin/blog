@@ -47,7 +47,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present Merouin'
+      copyright: 'Copyright © 2024-present Liam Ma'
     },
 
     // 是否启动搜索功能
