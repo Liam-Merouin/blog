@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Merouin's blog</title>
+        <link>https://merouin.top</link>
+        <description>Merouin's tech blog</description>
+        <lastBuildDate>Fri, 28 Nov 2025 07:32:07 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-CN</language>
+        <image>
+            <title>Merouin's blog</title>
+            <url>https://merouin.top/avatar_arc.png</url>
+            <link>https://merouin.top</link>
+        </image>
+        <copyright>Copyright (c) 2024-present, Liam Ma</copyright>
+    </channel>
+</rss>
