@@ -1,6 +1,6 @@
 ---
 title: Markdown Examples
-date: 2025-11-28
+date: 2025-11-28T08:09:25.225Z
 ---
 # Markdown Extension Examples
 
