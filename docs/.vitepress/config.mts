@@ -26,7 +26,7 @@ export default defineConfig({
     // RSS 源链接
     ['link', { rel: 'alternate', type: 'application/rss+xml', href: `${hostname}/feed.xml`, title: 'RSS Feed' }]
   ],
-
+  appearance: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/avatar_me.png',  // 头像路径
