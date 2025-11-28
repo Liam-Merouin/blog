@@ -22,14 +22,14 @@ export default defineConfig({
   // 1. 在 head 中注册 RSS，这样浏览器插件能检测到
   head: [
     // 设置 favicon 图标
-    ['link', { rel: 'icon', href: '/avatar_circle.png' }],
+    ['link', { rel: 'icon', href: '/avatar_me_rm_back.png' }],
     // RSS 源链接
     ['link', { rel: 'alternate', type: 'application/rss+xml', href: `${hostname}/feed.xml`, title: 'RSS Feed' }]
   ],
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/avatar_arc.png',  // 头像路径
+    logo: '/avatar_me.png',  // 头像路径
     // siteTitle: 'My Custom Title',  // 网站标题
 
     // 添加编辑此页链接
@@ -91,8 +91,8 @@ export default defineConfig({
       id: hostname,
       link: hostname,
       language: 'zh-CN',
-      image: `${hostname}/avatar_arc.png`, // 引用你的 logo
-      favicon: `${hostname}/avatar_circle.png`,
+      image: `${hostname}/avatar_me.png`, // 引用你的 logo
+      favicon: `${hostname}/avatar_me_rm_back.png`,
       copyright: 'Copyright (c) 2024-present, Liam Ma'
     })
 
